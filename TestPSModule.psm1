@@ -14,4 +14,4 @@ function Get-SomeData {
     end {
         Write-Output $data
     }
-}
+} 
