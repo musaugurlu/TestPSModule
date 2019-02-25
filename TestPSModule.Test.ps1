@@ -6,9 +6,6 @@ switch ($false) {
 
 Import-Module $PSScriptRoot\TestPSModule.psm1
 
-# Test AD Module
-Get-ADForest
-
 Describe -Tags "Example" "Get-SomeData" {
 
 
