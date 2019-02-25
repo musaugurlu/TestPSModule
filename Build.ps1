@@ -1,4 +1,4 @@
-Install-WindowsFeature AD-Domain-Services -Restart Confirm:$false
+Install-WindowsFeature AD-Domain-Services -Restart -Confirm:$false
 
 Import-Module ActiveDirectory
 Import-Module ADDSDeployment
