@@ -5,4 +5,6 @@ Import-Module ADDSDeployment
 
 Install-ADDSForest -CreateDnsDelegation:$false -DomainName "musaugurlu.com" -DomainNetbiosName "MUSAUGURLU" -SafeModeAdministratorPassword (ConvertTo-SecureString "Sup3rS3cureP@ssw0rd" -AsPlainText -Force) -InstallDns:$true  -NoRebootOnCompletion:$True -Force:$true
 
-Get-Forest
+Get-ADForest
+
+. .\TestPSModule.Test.ps1
